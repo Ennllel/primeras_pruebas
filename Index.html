@@ -7,22 +7,45 @@
 <body>
 	<header>
 		<figure id="logo">
-			<img src="logoprueba.png" width="150px" height="150px">
+			<img src="logoprueba.png" title="pdepruebas" width="150px" height="150px">
 		</figure>
 		<h1>Titulo de prueba</h1>
 		<figure id="avatar">
-			<img src="avatar.jpg">
+			<img src="avatar.jpg" title="avatar" width="150px" height="150px">
 		</figure>
 	</header>
 	<nav>
 		<ul>
-			<li>Uno</li>
-			<li>Dos</li>
-			<li>Tres</li>
+			<li><a href="#">Uno</a></li>
+			<li><a href="#">Dos</a></li>
+			<li><a href="#">Tres</a></li>
+			<li id="Cuatro">
+				<a href="#">Cuatro</a></li>
 		</ul>
 	</nav>
-	<section>
-		<article>
+	<section id="contenido">
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" width="400px" height="400px">
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Título del articulo</a>
+			</h2>
+			<p class="autor_item">
+				Por <a href="#">nombre del autor</a>
+			</p>
+			<p class="datos_item">
+				<a href="#" class="tag_item">Categorìa 1</a>
+				<span class="fecha_item">
+					Hace <Strong>20</strong>minutos
+				</span>
+				<a href="#" class="comentarios_item">3 comentarios</a>
+				<a href="#" class="guardar_item"></a>
+			</p>
+			<p class="votacion">
+				<a href="#" class="up">872</a>
+				<a href="#" class="down"></a>
+			</p>
 		</article>
 	</section>
 	<footer>
