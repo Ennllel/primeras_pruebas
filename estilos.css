@@ -1,0 +1,178 @@
+a
+{
+	color: #22bce0;
+}
+body
+{
+	background: #EEEEEE;
+	font-size: 16px;
+}
+footer
+{
+	background-color: blue;
+	color: rgba(255,255,255,0.7);
+	text-align: center;
+	padding: 1em;
+}
+footer p:first-child
+{
+	margin: 0;
+}
+footer p:last-child
+{
+	margin: 0;
+}
+footer p:last-child:after
+{
+	content:"- ";
+}
+footer p:last-child:before
+{
+	content: " -";
+}
+header
+{
+	background: blue;
+	color: white;
+	padding: 0.5em;
+	overflow: hidden;
+	position: relative;
+}
+header figure
+{
+	float: left;
+}
+header h1
+{
+	font-size: 18px;
+	margin: 0.5em 90px 0 0;
+}
+header #logo img
+{
+	border-right: 1px solid white;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+	width: 75px;
+}
+header #avatar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0.5em 0.5em 0 0;
+}
+header #avatar img
+{
+	width: 75px;
+	border-radius: 50%;
+}
+nav
+{
+	background: orange;
+	position: relative;
+	padding: 0 0.5em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul #Cuatro
+{
+	position: absolute;
+	right: 0;
+	margin: -0.25em 0.5em 0 0;
+}
+nav ul #Cuatro a
+{
+	font-style: italic;
+	box-shadow: rgba(0,0,0,0.5) 2px 2px 10px;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 4px;
+	border-radius: 0.3em;
+	background: green;
+	text-decoration: none;
+	padding:1.2em;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 0.25em 0 0;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 1em;
+}
+#contenido
+{
+	margin: 1em;
+}
+#contenido .item
+{
+	background-color: white;
+	border-bottom: 3px solid green;
+	min-height: 150px;
+	position: relative;
+	margin-bottom: 3em;
+}
+#contenido .item .autor_item
+{
+	color: #aaa;
+}
+#contenido .item .datos_item
+{
+	text-align: right;
+	margin: 0.7em 0.7em 0 0;
+}
+#contenido .item .datos_item .fecha_item 
+{	
+	color: #aaa;
+}
+#contenido .item .datos_item .tag_item 
+{
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+	background-color: orange;
+	border-radius: 0.2em;
+}
+#contenido .item .imagen_item
+{
+	margin: 0 1em 0 0;
+	float: left;
+}
+#contenido .item .imagen_item img
+{
+	width: 150px;
+}
+#contenido .item .titulo_item
+{
+	padding: 0.5em 0.5em 0 0;
+	font-size: 1.2em;
+	font-style: italic;
+}
+#contenido .item .titulo_item a
+{
+	color: #888;
+	text-decoration: none;
+}
+#contenido .item .votacion
+{
+	background: white;
+	border-radius: 0 0 0.3em 0.3em;
+	position: absolute;
+	top: 100%;
+	width: 90%;
+	margin: 0 2.5% 0 2.5%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
+}
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+	float:right;
+
+}
