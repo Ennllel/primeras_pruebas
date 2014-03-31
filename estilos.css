@@ -1,3 +1,49 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?pdpcb4');
+	src:url('fonts/icomoon.eot?#iefixpdpcb4') format('embedded-opentype'),
+		url('fonts/icomoon.woff?pdpcb4') format('woff'),
+		url('fonts/icomoon.ttf?pdpcb4') format('truetype'),
+		url('fonts/icomoon.svg?pdpcb4#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pen:before {
+	content: "\e600";
+	margin-right: 0.8em;
+	text-decoration: none;
+}
+.icon-star:before {
+	content: "\e601";
+	text-decoration: none;
+	color: orange;
+}
+.icon-arrow-up:before {
+	content: "\e602";
+	text-decoration: none;
+	color: green;
+}
+.icon-arrow-down:before {
+	content: "\e603";
+	text-decoration: none;
+	color: red;
+}
+
 a
 {
 	color: #22bce0;
@@ -5,7 +51,8 @@ a
 body
 {
 	background: #EEEEEE;
-	font-size: 16px;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 footer
 {
@@ -66,6 +113,10 @@ header #avatar img
 	width: 75px;
 	border-radius: 50%;
 }
+h2
+{
+	font-weight: normal;
+}
 nav
 {
 	background: orange;
@@ -82,7 +133,7 @@ nav ul #Cuatro
 {
 	position: absolute;
 	right: 0;
-	margin: -0.25em 0.5em 0 0;
+	margin: -0.20em 0.5em 0 0;
 }
 nav ul #Cuatro a
 {
@@ -92,7 +143,7 @@ nav ul #Cuatro a
 	border-radius: 0.3em;
 	background: green;
 	text-decoration: none;
-	padding:1.2em;
+	padding:0.8em;
 }
 nav ul li
 {
@@ -103,7 +154,7 @@ nav ul li a
 {
 	color: white;
 	display: block;
-	padding: 1em;
+	padding: 0.5em;
 }
 #contenido
 {
@@ -163,16 +214,20 @@ nav ul li a
 {
 	background: white;
 	border-radius: 0 0 0.3em 0.3em;
-	position: absolute;
-	top: 100%;
-	width: 90%;
-	margin: 0 2.5% 0 2.5%;
+	margin-left: 1%;
 	margin-top: 3px;
 	padding: 0.2em 0.5em;
+	position: absolute;
+	top: 100%;
+	width: 95%;
+}
+#contenido .item .votacion a
+{
+	text-decoration: none;
 }
 #contenido .item .votacion .comentarios_item,
 #contenido .item .votacion .guardar_item
 {
 	float:right;
-
+	text-decoration: none;
 }
